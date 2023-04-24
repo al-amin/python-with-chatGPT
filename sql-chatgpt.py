@@ -20,7 +20,7 @@ request_headers = {
 
 request_data = {
     "model": "text-davinci-003",
-    "prompt": f"Write sql query to {args.prompt}. Provide only code, no text",
+    "prompt": f"Write oracle sql query to {args.prompt}. Provide only code, no text",
     "max_tokens": 500,
     "temperature": 0.5
 }
